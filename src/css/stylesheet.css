@@ -22,7 +22,7 @@
     background-position: -112px -10px;
 }
 
-.sprite-fb-hover {
+.sprite-fb:hover {
     width: 47px;
     height: 47px;
     background-position: -10px -77px;
@@ -34,7 +34,7 @@
     background-position: -77px -77px;
 }
 
-.sprite-git-hover {
+.sprite-git:hover {
     width: 47px;
     height: 47px;
     background-position: -144px -77px;
@@ -76,7 +76,7 @@
     background-position: -219px -10px;
 }
 
-.sprite-tw-hover {
+.sprite-tw:hover {
     width: 47px;
     height: 47px;
     background-position: -211px -77px;
@@ -88,7 +88,7 @@
     background-position: -192px -144px;
 }
 
-.sprite-vk-hover {
+.sprite-vk:hover {
     width: 47px;
     height: 47px;
     background-position: -10px -211px;
