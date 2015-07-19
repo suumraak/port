@@ -1,0 +1,11 @@
+{
+  "name": "port",
+  "version": "0.1.0",
+  "authors": [
+    "Dima Vasiyev <zodiak777@inbox.ru>"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "jquery": "2.1.4"
+  }
+}
