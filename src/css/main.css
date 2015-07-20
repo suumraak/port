@@ -1,12 +1,26 @@
 header {
-	width: 1200px;
+    margin-top: -10px;
+    width: 100%;
+    background-color: #eff3f7;	
+}
+
+.header_content {
+    width: 1200px;s
 	height: 100px;
 	margin: 0 auto;
-	background-color: yellow;
+}
+
+.logo {
+	float: left;
+	padding-top: 25px;
+	padding-left: 30px;
 }
 
 .social {
-right: 10px;
+    float: right;
+    padding-right: 40px;
+    padding-top: 10px;
+ 
 }
 
 li {
@@ -15,4 +29,35 @@ li {
 
 li a {
 	border-radius: 25px;
+}
+
+/*Сложносочинённая градиентная полоса*/
+.line_right {
+    clear: both;
+    float: right;
+	margin: -3px auto;
+	height: 5px;
+	width: 50%;
+	background-color: #286e82;
+	background: linear-gradient(to right, #286e82, #e7eff3)
+}
+
+.line_left {
+    clear: both;
+    float: left;
+	margin: -2px auto;
+	height: 5px;
+	width: 50%;
+	background-color: #286e82;
+	background: linear-gradient(to left, #286e82, #e7eff3)
+}
+
+footer {
+    position: absolute;
+	bottom: 10px;
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #eff3f7;
+ 
 }
