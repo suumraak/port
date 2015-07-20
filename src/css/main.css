@@ -6,21 +6,21 @@ header {
 }
 
 .header_content {
-    width: 1200px;s
-	height: 100px;
+    width: 1200px;
+	height: 126px;
 	margin: 0 auto;
 }
 
 .logo {
 	float: left;
-	padding-top: 25px;
+	padding-top: 40px;
 	padding-left: 30px;
 }
 
 .social {
     float: right;
     padding-right: 40px;
-    padding-top: 10px;
+    padding-top: 25px;
  
 }
 
@@ -44,8 +44,8 @@ li a {
 .line_right {
     clear: both;
     float: right;
-	margin: -3px auto;
-	height: 5px;
+	margin: -2px auto;
+	height: 4px;
 	width: 50%;
 	background-color: #286e82;
 	background: linear-gradient(to right, #286e82, #e7eff3)
@@ -55,7 +55,7 @@ li a {
     clear: both;
     float: left;
 	margin: -2px auto;
-	height: 5px;
+	height: 4px;
 	width: 50%;
 	background-color: #286e82;
 	background: linear-gradient(to left, #286e82, #e7eff3)
@@ -81,7 +81,23 @@ footer {
 .about li {
 	list-style-type: none;
 	min-height: 30px;
-	width: 100px;
-	background-color: yellow;
+	width: 200px;
+	min-width: 150px;
+	background-color: #eff3f7;
+	margin-top: 5px;
+}
+
+.line2 {
+    height: 2px;
+	width: 210px;
+	background-color: #3ba8c0;
+}
+
+.contacts li {
+	list-style-type: none;
+	min-height: 30px;
+	width: 200px;
+	min-width: 150px;
+	background-color: #eff3f7;
 	margin-top: 5px;
 }
