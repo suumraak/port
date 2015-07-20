@@ -32,13 +32,6 @@ li a {
 	border-radius: 25px;
 }
 
-/* Враппер */
-.wrapper {
-	width: 100%;
-	height: 100%;
-	clear: both;
-	background-image: url(img/bg.png);
-}
 
 /* Сложносочинённая градиентная полоса */
 .line_right {
@@ -61,20 +54,9 @@ li a {
 	background: linear-gradient(to left, #286e82, #e7eff3)
 }
 
-/* Погнал футер */
-footer {
-    position: absolute;
-    bottom: -15px;
-    height: 70px;
-    width: 100%;
-	background-color: #eff3f7;
- }
-
-.footer_content {
-	position: relative;
-	margin: 0 auto;
-	width: 1200px;
-	height: inherit;
+/* Враппер */
+.wrapper {
+	background-image: url(img/bg.png);
 }
 
 /* Навигация */
@@ -83,8 +65,16 @@ footer {
 	min-height: 30px;
 	width: 200px;
 	min-width: 150px;
-	background-color: #eff3f7;
-	margin-top: 5px;
+	background-color: #5ff3f7;
+	margin-top: 5px; 
+} 
+
+.border1 {
+	border-radius: 5px 5px 0 0;
+}
+
+.border2 {
+	border-radius: 0 0 5px 5px;
 }
 
 .line2 {
@@ -98,6 +88,64 @@ footer {
 	min-height: 30px;
 	width: 200px;
 	min-width: 150px;
-	background-color: #eff3f7;
+	background-color: #5ff3f7;
 	margin-top: 5px;
+}
+
+/*Основная информация*/
+.data li span {
+	font-weight: bold;
+}
+
+.foto {
+	height: 140px;
+	width: 140px;
+	border: 5px #2aa3bb solid;
+	border-radius: 50%;
+}
+
+.foto img {
+	position: relative;
+    width: 140px;
+	height: 140px;
+	border-radius: 50%;
+
+}
+
+.skills li {
+	border-radius: 4px;
+	display: inline-block;
+	height: 18px;
+	background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+}
+
+/* Опыт работы */
+.exp {
+margin-bottom: 200px;
+}
+
+.exp ul li p {
+	padding-left: 50px;
+	width: 150px;
+	margin: 2px;
+}
+
+.exp ul li {
+	margin-top: 15px;
+}
+
+/* Погнал футер */
+footer {
+    position: fixed;
+    bottom: -15px;
+    height: 70px;
+    width: 100%;
+	background-color: #eff3f7;
+ }
+
+.footer_content {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: inherit;
 }
