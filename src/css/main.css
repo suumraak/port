@@ -1,13 +1,71 @@
+/*КЛЕАРФИКС*/
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+/*ОБЩИЕ*/
 body {
 	background: url(/img/bg.png) repeat;
 }
 
+/*ХЭДЕР*/
+.main_header {
+	position: relative;
+	height: 119px;
+	margin-bottom: 39px
+}
 
+.main_header_content {
+	width: 1200px;
+	min-width: 960px;
+	margin: 0 auto;
+}
 
+.main_header .line {
+	position: absolute;
+	bottom: 0;
+}
+
+.logo {
+	float: left;
+	margin: 30px 40px;
+}
+
+.socials {
+	float: right;
+	margin-top: 20px;
+}
+
+.icons li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 19px;
+}
+
+.icons:first-child {
+	margin-left: -59px;
+}
+
+/*ВРАППЕР*/
+.wrapper {
+	margin-bottom: 40px;
+}
 
 
 
 /*ФУТЕР*/
-.lock {
-    background: url(/img/.lock.png) no-repeat;
+.main_footer {
+	position: relative;
+    height: 80px;
+    background-color: #eff3f7;
+}
+
+.main_footer .line {
+	position: absolute;
+    bottom: 100%;
 }
