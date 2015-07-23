@@ -9,6 +9,10 @@
 }
 
 /*ОБЩИЕ*/
+html, body {
+	height: 100%;
+}
+
 body {
 	background: url(/img/bg.png) repeat;
 }
@@ -54,18 +58,37 @@ body {
 /*ВРАППЕР*/
 .wrapper {
 	margin-bottom: 40px;
+	height: auto;
+	min-height: 100%;
 }
 
+/*Мейн блок*/
+.main_block {
+	margin: 0 auto;
+	width: 960px;
+}
 
+/*МЕНЮ СЛЕВА*/
+.menu_left {
+	width: 250px;
+	float: left;
+}
+
+/*КОНТЕНТ*/
+.main_content {
+	width: 650px;
+	float: right;
+}
 
 /*ФУТЕР*/
 .main_footer {
 	position: relative;
     height: 80px;
+    margin-bottom: -80px;
     background-color: #eff3f7;
 }
 
 .main_footer .line {
 	position: absolute;
     bottom: 100%;
-}
+} 
