@@ -11,6 +11,7 @@
 /*ОБЩИЕ*/
 html, body {
 	height: 100%;
+	font-family: 'fira_sanslight';
 }
 
 body {
@@ -21,7 +22,8 @@ body {
 .main_header {
 	position: relative;
 	height: 119px;
-	margin-bottom: 39px
+	margin-bottom: 39px;
+	background-color: #eff3f7;
 }
 
 .main_header_content {
@@ -80,6 +82,20 @@ body {
 	float: right;
 }
 
+.main_content_block {
+	margin-bottom: 26px;
+    background-color: #eff3f7;
+}
+
+/*ОСНОВНАЯ ИНФОРМАЦИЯ*/
+.information li div {
+	display: inline-block;
+}
+
+.information li {
+	list-style-type: none;
+}
+
 /*ФУТЕР*/
 .main_footer {
 	position: relative;
@@ -92,3 +108,17 @@ body {
 	position: absolute;
     bottom: 100%;
 } 
+
+.main_footer_content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.entry {
+	margin-top: 30px;
+}
+
+.copyright {
+	margin-top: -15px;
+    text-align: center;
+}
