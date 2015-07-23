@@ -1,12 +1,17 @@
 /* Тут у нас хэдер */
+html {
+	color: #4a545d;
+}
+
 header {
     margin-top: -10px;
-    width: 100%;
-    background-color: #eff3f7;
+    min-width: 1000px;
+    background-color: #E74C3C;
 }
 
 .header_content {
     width: 1200px;
+    min-width: 1210px;
 	height: 126px;
 	margin: 0 auto;
 }
@@ -33,26 +38,23 @@ li a {
 	border-radius: 25px;
 }
 
-
 /* Сложносочинённая градиентная полоса */
 
 .line_right {
-    clear: both;
     float: right;
 	margin: -2px auto;
 	height: 4px;
 	width: 50%;
-	background-color: #286e82;
+	background-color: #C0392B;
 	background: linear-gradient(to right, #286e82, #e7eff3)
 }
 .line_left {
-    clear: both;
     float: left;
 	margin: -2px auto;
 	height: 4px;
 	width: 50%;
 	background-color: #286e82;
-	background: linear-gradient(to left, #286e82, #e7eff3)
+	background: linear-gradient(to left, #FFA489, #AE4F33)
 }
 
 
@@ -60,22 +62,28 @@ li a {
 .wrapper {
 	width: 960px;
 	margin: 40px auto;
+	background-color: #F39C12;
 }
 
 /* Навигация */
 nav {
 	float: left;
 	width: 250px;
-	background-color: #5ff3f7;
 }
 
-.about li {
-	list-style-type: none;
-	min-height: 30px;
-	width: 200px;
-	min-width: 150px;
-	margin-top: 5px; 
-} 
+.nav_top li {
+	background-color: #cff3f7;
+	min-height: 73px;
+    list-style-type: none;
+}
+
+.nav_top li {
+	line-height: 73px;
+}
+
+.nav_top li p {
+	padding-left: 10px;
+}
 
 .border1 {
 	border-radius: 5px 5px 0 0;
@@ -137,6 +145,10 @@ margin-top: -20px;
 	background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
 }
 
+.data ul {
+	list-style-type: none;
+}
+
 /* Опыт работы */
 .exp {
 
@@ -159,7 +171,7 @@ footer {
     bottom: -15px;
     height: 70px;
     width: 100%;
-	background-color: #eff3f7;
+	background-color: #C0392B;
  }
 
 .footer_content {
@@ -175,4 +187,9 @@ footer {
 
 .copyright {
 	margin-left: 200px;
+}
+
+.line {
+	position: relative;
+	margin: 0 auto;
 }
