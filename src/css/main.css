@@ -24,6 +24,7 @@ body {
 	height: 119px;
 	margin-bottom: 39px;
 	background-color: #eff3f7;
+
 }
 
 .main_header_content {
@@ -335,6 +336,10 @@ h2 {
 	background-color: #3ba8c0;
 }
 
+.exp {
+	margin-bottom: 15px;
+}
+
 /*Образование*/
 .hat:before {
 	background: url(spritesheet.png) -10px -144px;
@@ -356,6 +361,10 @@ h2 {
 	display: block;
 	height: 34px;
 	width: 42px;
+}
+
+.education {
+	margin-bottom: 15px;
 }
 
 /*ФУТЕР*/
