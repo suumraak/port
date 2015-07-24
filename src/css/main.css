@@ -70,15 +70,16 @@ body {
 	width: 960px;
 }
 
-/*МЕНЮ СЛЕВА*/
+/*ЛЕВОЕ МЕНЮ*/
 /*Навигация*/
 .menu_left {
 	width: 250px;
 	float: left;
 }
 
-.menu_left ul li {
-list-style-type: none;
+.nav_items div {
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .nav_item {
@@ -87,15 +88,38 @@ list-style-type: none;
 	background-color: #eff3f7;
 }
 
+.nav_item:hover {
+	background-color: #3ba8c0;
+}
+
+.nav_item:hover .line2 {
+	display: none;
+}
+
 .nav_item a {
+	height: 73px;
+	width: inherit;
 	display: block;
 	text-decoration: none;
 	color: #3ba8c0;
 	font-size: 1.23em;
+	margin: 25px 25px;
 }
 
+.nav_item:hover a {
+	color: #eff3f7;
+}
 
-/*МЕНЮ СЛЕВА*/
+.line2 {
+	width: 230px;
+	height: 2px;
+	background-color: #3ba8c0;
+    margin-left: 10px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+/*ЛЕВОЕ МЕНЮ*/
 /*Контакты*/
 .contact_items li {
 	height: 40px;
@@ -120,9 +144,9 @@ background-color: #41b9d4;
 }
 
 .contact_items {
+	width: 250px;
 	border-radius: 4px;
-	overflow: hidden;
-	fon
+
 }
 
 .contact_items li a {
@@ -132,6 +156,10 @@ background-color: #41b9d4;
 
 .contact_items li a:hover {
 	text-decoration: underline;
+}
+
+.contact_item:before {
+	background: url(img/.lock.png);
 }
 
 /*КОНТЕНТ*/
