@@ -119,6 +119,7 @@ h2 {
 	color: #3ba8c0;
 	font-size: 1.23em;
 	margin: 0px 0px 0px 25px;
+	line-height: 73px;
 }
 
 .nav_item:hover a {
@@ -158,8 +159,7 @@ h2 {
 /*Контакты*/
 .contact_items li a {
 	margin-left: 80px;
-	margin-top: 20px;
-		line-height: 40px;
+	line-height: 40px;
 }
 
 .contact_items li span {
