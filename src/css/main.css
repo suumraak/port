@@ -93,9 +93,9 @@ h2 {
 }
 
 /*Навигация*/
-.nav_items div {
-    border-radius: 4px;
-    overflow: hidden;
+.main_navigation {
+	margin-top: 21px;
+	margin-bottom: 24px;
 }
 
 .nav_item {
@@ -114,12 +114,11 @@ h2 {
 
 .nav_item a {
 	height: 73px;
-	width: inherit;
-	display: block;
+    display: block;
 	text-decoration: none;
 	color: #3ba8c0;
 	font-size: 1.23em;
-	margin: 25px 25px;
+	margin: 0px 0px 0px 25px;
 }
 
 .nav_item:hover a {
@@ -131,7 +130,7 @@ h2 {
 	height: 2px;
 	background-color: #3ba8c0;
     margin-left: 10px;
-    margin-top: -50px;
+    margin-top: 0px;
     position: absolute;
 }
 
@@ -139,16 +138,34 @@ h2 {
 	color: grey;
 }
 
+.active {
+	background-color: #3ba8c0;
+}
+
+.active a {
+	color: white;
+}
+
+.first {
+	border-radius: 4px 4px 0 0;
+}
+
+.last {
+    border-radius: 0 0 4px 4px;
+}
+
 /*ЛЕВОЕ МЕНЮ*/
 /*Контакты*/
 .contact_items li a {
 	margin-left: 80px;
 	margin-top: 20px;
+		line-height: 40px;
 }
 
 .contact_items li span {
-	margin-left: 45px;
+	margin-left: 35px;
 	font-size: 1.2em;
+	line-height: 40px;
 }
 
 .contact_items {
@@ -179,7 +196,7 @@ h2 {
 	background: url(spritesheet.png) -71px -144px;
 	content: "";
 	float: left;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 5px;
 	display: block;
 	height: 16px;
@@ -214,7 +231,7 @@ h2 {
 	background: url(spritesheet.png) -152px -144px;
 	content: "";
 	float: left;
-	margin-top: 5px;
+	margin-top: 7px;
 	margin-right: 5px;
 	display: block;
 	height: 20px;
@@ -268,8 +285,8 @@ h2 {
 }
 
 .foto img {
-    height: 150px;
-    width: 160px;
+    height: 100%;
+    width: 110%;
 }
 
 .information li div {
@@ -295,6 +312,9 @@ h2 {
 	margin: -150px 0px 0px 140px;
 }
 
+.title {
+	font-weight: bold;
+}
 
 /*Опыт работы*/
 .exp:before {
@@ -341,8 +361,8 @@ h2 {
 /*ФУТЕР*/
 .main_footer {
 	position: relative;
-    height: 80px;
-    margin-bottom: -80px;
+    height: 95px;
+    margin-bottom: -95px;
     background-color: #eff3f7;
 }
 
@@ -352,7 +372,7 @@ h2 {
 }
 
 .entry {
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
 .copyright {
