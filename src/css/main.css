@@ -125,6 +125,7 @@ body {
 	height: 40px;
 	width: 250px;
 	color: white;
+	list-style-type: none;
 }
 
 .contact_item {
@@ -135,12 +136,45 @@ body {
 background-color: #41b9d4;
 }
 
+.contact_item_mail:before {
+	background: url(spritesheet.png) -71px -144px;
+	content: "";
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: block;
+	height: 16px;
+	width: 21px;
+}
+
 .contact_item_phone {
 	background-color: #48cbe8;
 }
 
+.contact_item_phone:before {
+	background: url(spritesheet.png) -112px -144px;
+	content: "";
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: block;
+	height: 20px;
+	width: 21px;
+}
+
 .contact_item_skype {
 	background-color: #51daf8;
+}
+
+.contact_item_skype:before {
+	background: url(spritesheet.png) -152px -144px;
+	content: "";
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: block;
+	height: 20px;
+	width: 20px;
 }
 
 .contact_items {
@@ -156,10 +190,6 @@ background-color: #41b9d4;
 
 .contact_items li a:hover {
 	text-decoration: underline;
-}
-
-.contact_item:before {
-	background: url(img/.lock.png);
 }
 
 /*КОНТЕНТ*/
@@ -217,6 +247,41 @@ background-color: #41b9d4;
 
 .title {
 	font-weight: bold;
+}
+
+/*Опыт работы*/
+.exp:before {
+	background: url(spritesheet.png) -10px -10px;
+	content: "";
+	float: left;
+	margin-top: 8px;
+	margin-right: 20px;
+	display: block;
+	height: 34px;
+	width: 36px;
+}
+
+/*Образование*/
+.hat:before {
+	background: url(spritesheet.png) -10px -144px;
+	content: "";
+	float: left;
+	margin-top: 8px;
+	margin-right: 20px;
+	display: block;
+	height: 34px;
+	width: 42px;
+}
+
+.doc:before {
+	background: url(spritesheet.png) -66px -10px;
+	content: "";
+	float: left;
+	margin-top: 8px;
+	margin-right: 20px;
+	display: block;
+	height: 34px;
+	width: 42px;
 }
 
 /*ФУТЕР*/
