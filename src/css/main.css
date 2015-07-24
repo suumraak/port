@@ -71,9 +71,67 @@ body {
 }
 
 /*МЕНЮ СЛЕВА*/
+/*Навигация*/
 .menu_left {
 	width: 250px;
 	float: left;
+}
+
+.menu_left ul li {
+list-style-type: none;
+}
+
+.nav_item {
+	width: 250px;
+	height: 73px;
+	background-color: #eff3f7;
+}
+
+.nav_item a {
+	display: block;
+	text-decoration: none;
+	color: #3ba8c0;
+	font-size: 1.23em;
+}
+
+
+/*МЕНЮ СЛЕВА*/
+/*Контакты*/
+.contact_items li {
+	height: 40px;
+	width: 250px;
+	color: white;
+}
+
+.contact_item {
+	background-color:#3ba8c0;
+}
+
+.contact_item_mail {
+background-color: #41b9d4;
+}
+
+.contact_item_phone {
+	background-color: #48cbe8;
+}
+
+.contact_item_skype {
+	background-color: #51daf8;
+}
+
+.contact_items {
+	border-radius: 4px;
+	overflow: hidden;
+	fon
+}
+
+.contact_items li a {
+	text-decoration: none;
+	color: white;
+}
+
+.contact_items li a:hover {
+	text-decoration: underline;
 }
 
 /*КОНТЕНТ*/
@@ -88,12 +146,49 @@ body {
 }
 
 /*ОСНОВНАЯ ИНФОРМАЦИЯ*/
+.main_information {
+	min-height: 320px;
+}
+
+.line_up {
+	margin-bottom: 35px;
+	width: 340px;
+	height: 2px;
+	background-color: #3ba8c0;
+}
+
+.foto {
+    overflow: hidden;
+	height: 142px;
+	width: 142px;
+	border-radius: 50%;
+}
+
+.foto img {
+    height: 150px;
+    width: 160px;
+}
+
 .information li div {
 	display: inline-block;
 }
 
 .information li {
 	list-style-type: none;
+}
+
+.skill {
+	border-radius: 4px;
+	background: #3ba8c0;
+    background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+}
+
+.spisok {
+	margin: -150px 0px 0px 140px;
+}
+
+.title {
+	font-weight: bold;
 }
 
 /*ФУТЕР*/
@@ -115,10 +210,11 @@ body {
 }
 
 .entry {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .copyright {
-	margin-top: -15px;
+	margin-top: -22px;
     text-align: center;
 }
+

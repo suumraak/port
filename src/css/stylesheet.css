@@ -52,6 +52,10 @@
     background-position: -179px -10px;
 }
 
+.sprite-lock:hover {
+    background: url(/img/lock-open.png)
+}
+
 .sprite-mail {
     width: 21px;
     height: 16px;
