@@ -277,17 +277,12 @@ h2 {
 	background-color: #3ba8c0;
 }
 
-.foto {
+.my_foto {
     overflow: hidden;
 	height: 142px;
 	width: 142px;
 	border-radius: 50%;
 	border: 5px solid #21a0b9; 
-}
-
-.foto img {
-    height: 100%;
-    width: 110%;
 }
 
 .information li div {
