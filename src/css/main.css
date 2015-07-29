@@ -1,3 +1,5 @@
+/*ОБЩИЕ КЛАССЫ*/
+
 html {
 	height: 100%;
 }
@@ -7,6 +9,8 @@ body {
 	background: url(/img/bg.png) repeat;
 	font-family: 'fira_sansbook';
 }
+
+/*Прибиваем футер к низу страницы*/
 
 .wrapper {
 	min-height: 100%;
@@ -25,7 +29,21 @@ body {
 .page_footer {
 	height: 80px;
 	margin-top: -80px;
-	background: green;
+	background: #eff3f7;
 	min-width: 970px;
 }
+/*Футер прибит*/
 
+/*HEADER*/
+.page_header {
+	height: 119px;
+	background: #eff3f7;
+}
+
+.container1200 {
+	width: 1200px;
+	min-width: 960px;
+	background-color: #eff3f7;
+	margin: 0 auto;
+	height: inherit;
+}
